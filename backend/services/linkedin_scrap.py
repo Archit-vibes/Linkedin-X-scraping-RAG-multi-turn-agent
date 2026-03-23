@@ -9,7 +9,7 @@ def linkedin_posts_scrap(url):
 
     
     headers = {
-        "Authorization": "Bearer ec5eb0f3-0803-4381-93b3-ca29274803ec",
+        "Authorization": "Bearer ",#insert your bearer token here
         "Content-Type": "application/json",
     }
 
@@ -40,7 +40,7 @@ def linkedin_profile_scrap(url):
 
     
     headers = {
-        "Authorization": "Bearer ec5eb0f3-0803-4381-93b3-ca29274803ec",
+        "Authorization": "Bearer ",#insert your bearer token here
         "Content-Type": "application/json",
     }
 
