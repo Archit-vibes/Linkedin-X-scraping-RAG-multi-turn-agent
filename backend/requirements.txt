@@ -1,0 +1,9 @@
+Flask==3.0.3
+flask-cors==4.0.0
+requests
+python-dotenv
+langchain
+langchain-community
+langchain-google-genai
+chromadb
+sentence-transformers
