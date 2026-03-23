@@ -9,7 +9,7 @@ def scrape_x_profile(profile_url):
     try:
         print(f"\n--- Starting X Scraping (Bright Data) for {profile_url} ---")
         
-        key = os.getenv("BRIGHT_DATA_KEY", "ec5eb0f3-0803-4381-93b3-ca29274803ec")
+        key = os.getenv("BRIGHT_DATA_KEY") #put your key here
         
         headers = {
             "Authorization": f"Bearer {key}",
